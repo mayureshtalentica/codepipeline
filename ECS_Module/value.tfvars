@@ -1,0 +1,12 @@
+vpc_cidr            = "172.35.0.0/16"
+env                 = "qa"
+public_subnet_cidr  = ["172.35.1.0/24", "172.35.2.0/24"]
+private_subnet_cidr = ["172.35.3.0/24"]
+project-name        = "talentica"
+availability-zones  = "ap-south-1a,ap-south-1b"
+vpc-bucket-name     = "vpc-log-test"
+alb_type            = "application"
+ecs-taskrole-name   = "ecstask"
+#ecs-taskrole-name   = "ecstask"
+cluster-name        = "python-app"
+myapp-cluster = "python-app"
